@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tsc --watch --module commonjs app.ts",
     "start": "npm run build && node app.js",
-    "build": "tsc"
+    "build": "tsc",
+    "clean": "rm trophies.json"
   },
   "author": "",
   "license": "ISC",
