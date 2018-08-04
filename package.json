@@ -1,0 +1,23 @@
+{
+  "name": "psn-trophies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc --watch --module commonjs app.ts",
+    "start": "npm run build && node app.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "request": "^2.87.0",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.110",
+    "@types/request": "^2.47.1"
+  }
+}
