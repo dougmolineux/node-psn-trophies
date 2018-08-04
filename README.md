@@ -13,4 +13,4 @@ npm install && npm start
 ```
 
 # Screenshots
-![Screenshot](screenshots/Screen Shot 2018-08-04 at 11.26.32 AM.png)
+![screenshot](https://github.com/dougmolineux/node-psn-trophies/blob/master/screenshots/screenshot.png?raw=true)
