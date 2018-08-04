@@ -8,7 +8,7 @@ const localTrophies = require('./trophies.json');
 const limit = "10";
 
 // update this value with your token
-const token = "20b07f97-ba54-4ef6-bf99-aae5339f276e";
+const token = "YOUR_TOKEN";
 
 let offset = <any>"0";
 let trophyTitles: Array<TrophyTitle> = [];

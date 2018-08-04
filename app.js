@@ -6,7 +6,7 @@ var _ = require("lodash");
 var localTrophies = require('./trophies.json');
 var limit = "10";
 // update this value with your token
-var token = "20b07f97-ba54-4ef6-bf99-aae5339f276e";
+var token = "YOUR_TOKEN";
 var offset = "0";
 var trophyTitles = [];
 var totalResults = 0;
@@ -46,14 +46,13 @@ var analyzeTrophies = function (trophs) {
         if (title.fromUser.earnedTrophies.platinum) {
             platCount++;
             console.log("Platinum Trophy Game Title:", title.trophyTitleName);
-            //console.log("Title", title);
         }
     });
     var sorted = _.sortBy(trophs, "fromUser.progress").reverse();
     console.log("Total number of Platinum Trophies:", platCount);
     console.log("Top 5 Progression Percentages: ", sorted.slice(0, 5).map(function (t) { return ({
         gameTitle: t.trophyTitleName,
-        progess: t.fromUser.progress + "%"
+        totalProgess: t.fromUser.progress + "%"
     }); }));
 };
 if (!localTrophies)
