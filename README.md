@@ -11,3 +11,6 @@ To build and run,
 ```
 npm install && npm start
 ```
+
+# Screenshots
+![Drag Racing](Dragster.jpg)
