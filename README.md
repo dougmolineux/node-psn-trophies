@@ -13,4 +13,4 @@ npm install && npm start
 ```
 
 # Screenshots
-![Drag Racing](Dragster.jpg)
+![Screenshot](screenshots/Screen Shot 2018-08-04 at 11.26.32 AM.png)
